@@ -1,0 +1,7 @@
+13:11:58 **** Incremental Build of configuration Default for project assert_test ****
+make all 
+g++ -O2 -g -Wall -fmessage-length=0   -c -o assert_test.o assert_test.cpp
+g++ -o assert_test assert_test.o 
+13:12:00 **** Incremental Build of configuration Default for project assert_test ****
+make all 
+make: Nothing to be done for `all'.
