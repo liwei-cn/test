@@ -1,0 +1,23 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include <iostream>
+#include "point.h"
+using namespace std;
+
+int main(int agrc, char* agrv[])
+{
+
+	Point *p = new Point;
+//	p.SetCoordinate(0.9,10.0);
+	cout << p.getX() << p.getY();
+
+	return 0;
+}
+
+
+

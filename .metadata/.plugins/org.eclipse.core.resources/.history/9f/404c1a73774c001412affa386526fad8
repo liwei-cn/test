@@ -1,0 +1,17 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include <iostream>
+using namespace std;
+int main(int agrc, char* agrv[])
+{
+
+	return 0;
+}
+
+
+

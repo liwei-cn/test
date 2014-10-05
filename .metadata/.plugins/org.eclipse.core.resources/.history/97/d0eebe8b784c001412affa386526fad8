@@ -1,0 +1,25 @@
+/*
+ * point.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef POINT_H_
+#define POINT_H_
+
+class Point{
+public:
+     Point(double, double);
+     void SetCoordinate(double, double);
+     double getX() {return x;}
+     double getY() {return y;}
+     friend ostream & operator << (ostream & couts, const Point&)
+
+protected:
+     double x, y;
+};
+
+
+
+#endif /* POINT_H_ */

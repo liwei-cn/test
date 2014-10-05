@@ -1,0 +1,18 @@
+/*
+ * point.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef POINT_H_
+#define POINT_H_
+
+class Point{
+public:
+
+};
+
+
+
+#endif /* POINT_H_ */

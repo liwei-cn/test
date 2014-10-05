@@ -1,0 +1,35 @@
+/*
+ * point.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+#include "point.h"
+
+Point::Point(double a, double b): x(a),y(b)
+{
+	x = a;
+	y = b;
+}
+
+void Point::SetCoordinate(double a, double b)
+{
+	x = a;
+	y = b;
+}
+
+double Point::getX()
+{
+	return x;
+}
+
+double Point::getY()
+{
+	return x;
+}
+
+ostream & operator << (ostream & output, const Point& point)
+{
+	output << "(" << point.x << "," << point.y << ")" << endl;
+	return output;
+}

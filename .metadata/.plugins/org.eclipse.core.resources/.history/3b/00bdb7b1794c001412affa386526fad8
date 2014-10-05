@@ -1,0 +1,15 @@
+/*
+ * point.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+#include <point.h>
+
+Point(double a, double b){
+
+}
+
+
+
+
