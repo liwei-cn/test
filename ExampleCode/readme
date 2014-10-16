@@ -1,0 +1,6 @@
+C++ classes are similar to Java. Here are some of the differences:
+Semicolon after the class.
+The public and private keywords must be followed by colons and introduce regions rather than individual declarations. They are effective until changed. Repeats are allowed, so you may attach one to each declaration if you like, but don't forget the colon. The default visibility is private in classes.
+Officially, they are member functions rather than methods, but most people tend to use the terms interchangeably.
+Class variables are really objects, not references, created without running new. The declaration Point d; creates an object, not a reference. The variable d is an object (not a reference) just as i in int i; is an integer, not a reference.
+Notice that the class shares a file with the main and a top-level function. C++ does not require classes to occupy their own files, or that class names match file names. A file may contain several classes mixed in with other code.

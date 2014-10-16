@@ -18,7 +18,7 @@ Point::Point()
 
 Point::~Point()
 {
-	cout << "class destroyed!" << endl;
+	cout << "point destroyed!" << endl;
 }
 
 void Point::SetCoordinate(double a, double b)
@@ -41,4 +41,9 @@ ostream & operator << (ostream & output, const Point& point)
 {
 	output << "(" << point.x << "," << point.y << ")" << endl;
 	return output;
+}
+
+void Point::ShapeName() const
+{
+	 cout << "Point: " << endl;
 }

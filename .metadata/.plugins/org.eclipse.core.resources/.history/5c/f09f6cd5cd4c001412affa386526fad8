@@ -1,0 +1,19 @@
+/*
+ * shape.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef SHAPE_H_
+#define SHAPE_H_
+
+class Shape
+{
+public:
+	virtual
+};
+
+
+
+#endif /* SHAPE_H_ */

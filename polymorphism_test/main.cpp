@@ -7,31 +7,29 @@
 
 #include <iostream>
 #include "point.h"
+#include "circle.h"
+#include "cylinder.h"
+#include "shape.h"
 using namespace std;
 
 
-void test()
-{
-//	    Point q(0.1,0.2);
-//	    p = &q;
-	    Point *p = new Point(0.3,0.4);
-	//	Point p;
-	//	p.SetCoordinate(0.9,10.0);
-		cout << p->getX() << p->getY();
-		delete p;
-		p->SetCoordinate(0.9,10.0);
-		cout << p->getX() << p->getY();
-}
-
 int main(int agrc, char* agrv[])
 {
+	Point po(0.1,0.2);
+	Circle co(0.5,0.6,0.7);
+	Cylinder cl(1.0,2.0,3.0,4.0);
 
-	test();
-    cout << "exit!" << endl;
+    Shape *p;
+    p = &po;
+    p->ShapeName();
 
-//    cout << p->getX() << p->getY();
+    p = &co;
+    p->ShapeName();
 
-	return 0;
+    p = &cl;
+    p->ShapeName();
+
+    return 0;
 }
 
 

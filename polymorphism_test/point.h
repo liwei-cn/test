@@ -9,18 +9,21 @@
 #define POINT_H_
 
 #include <iostream>
+#include "shape.h"
 using namespace std;
 
-class Point{
+class Point: public Shape
+{
 public:
      Point(double , double); //define the default parameter in the declaration
      Point();
-     ~Point();
+     virtual ~Point();
      void SetCoordinate(double, double);
      double getX() const;
      double getY() const;
      friend ostream & operator << (ostream &, const Point&);
 
+     virtual void ShapeName() const;
 protected:
      double x, y;
 };

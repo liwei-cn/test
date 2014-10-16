@@ -1,0 +1,49 @@
+/*
+ * point.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+#include "point.h"
+
+Point::Point(double a, double b): x(a),y(b)
+{
+}
+
+Point::Point()
+{
+	x = 0.0;
+	y = 0.0;
+}
+
+Point::~Point()
+{
+	cout << "point destroyed!" << endl;
+}
+
+void Point::SetCoordinate(double a, double b)
+{
+	x = a;
+	y = b;
+}
+
+double Point::getX() const
+{
+	return x;
+}
+
+double Point::getY() const
+{
+	return y;
+}
+
+ostream & operator << (ostream & output, const Point& point)
+{
+	output << "(" << point.x << "," << point.y << ")" << endl;
+	return output;
+}
+
+void Point::ShapeName()
+{
+	 {cout << "Point: " << endl;}
+}

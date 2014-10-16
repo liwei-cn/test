@@ -1,0 +1,15 @@
+/*
+ * cylinder.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef CYLINDER_H_
+#define CYLINDER_H_
+
+#include "circle.h"
+
+
+
+#endif /* CYLINDER_H_ */

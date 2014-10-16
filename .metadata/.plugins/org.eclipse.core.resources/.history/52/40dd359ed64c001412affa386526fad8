@@ -1,0 +1,28 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include <iostream>
+#include "point.h"
+#include "circle.h"
+#include "cylinder.h"
+#include "shape.h"
+using namespace std;
+
+
+int main(int agrc, char* agrv[])
+{
+	Circle c(0.1,0.2,0.3);
+    cout << c;
+
+    Point &refp = c;
+    p.ShapeName();
+
+    return 0;
+}
+
+
+

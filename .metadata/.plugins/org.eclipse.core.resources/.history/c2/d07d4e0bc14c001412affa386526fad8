@@ -1,0 +1,28 @@
+/*
+ * cylinder.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef CYLINDER_H_
+#define CYLINDER_H_
+
+#include "circle.h"
+
+class Cylinder: public Circle
+{
+public:
+	Cylinder(double x = 0, double y = 0, double r = 0, double h = 0);
+	~Cylinder();
+	void SetHeight (double);
+	double GetHeight() const;
+	double area() const;
+	double volume() const;
+	friend ostream & operator << (ostream &, const Cylinder&);
+
+};
+
+
+
+#endif /* CYLINDER_H_ */

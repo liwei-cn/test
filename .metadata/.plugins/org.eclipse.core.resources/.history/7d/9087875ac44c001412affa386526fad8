@@ -1,0 +1,19 @@
+/*
+ * cylinder.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include "cylinder.h"
+
+Cylinder::Cylinder(double x, double y, double r, double h): Point(x, y), Circle(x,y,r),height(h)
+{
+
+}
+
+Cylinder::~Cylinder()
+{
+	cout << "cylinder destroyed!" << endl;
+}
+

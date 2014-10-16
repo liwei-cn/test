@@ -1,0 +1,32 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include <iostream>
+#include "point.h"
+#include "circle.h"
+#include "cylinder.h"
+using namespace std;
+
+
+int main(int agrc, char* agrv[])
+{
+
+	Cylinder cy(0.1,0.2,0.3,0.4);
+    cout << cy;
+
+	Circle c(0.1,0.2,0.3);
+    cout << c;
+
+    Circle *p;
+    p = &cy;
+    cout << p->area();
+
+    return 0;
+}
+
+
+

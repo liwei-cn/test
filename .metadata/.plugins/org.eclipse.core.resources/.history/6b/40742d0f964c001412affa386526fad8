@@ -1,0 +1,29 @@
+/*
+ * circle.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+#include "circle.h"
+
+
+Circle::Circle(double a, double b, double r): x(a),y(b)
+{
+	radius = r;
+}
+
+void Circle::SetRadius (double r)
+{
+	radius = r;
+}
+
+double Circle::GetRadius () const
+{
+	return radius;
+}
+
+double Circle::area() const
+{
+	return 3.14159*radius*radius;
+}
+

@@ -1,0 +1,22 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#include <iostream>
+#include "point.h"
+#include "circle.h"
+#include "cylinder.h"
+using namespace std;
+
+
+int main(int agrc, char* agrv[])
+{
+	Point p(0.1,0.2);
+    return 0;
+}
+
+
+

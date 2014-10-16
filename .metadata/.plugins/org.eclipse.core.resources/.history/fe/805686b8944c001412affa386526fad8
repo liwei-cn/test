@@ -1,0 +1,24 @@
+/*
+ * circle.h
+ *
+ *  Created on: Oct 5, 2014
+ *      Author: liwei
+ */
+
+#ifndef CIRCLE_H_
+#define CIRCLE_H_
+
+class Circle : public Point
+{
+public:
+	Circle(double x = 0, double y =0, double r =0);
+	void SetRadius (double);
+	double GetRadius () const;
+	double area () const;
+	friend ostream &
+
+};
+
+
+
+#endif /* CIRCLE_H_ */
